@@ -10,13 +10,11 @@
     "no-unreachable": "warn",
     "no-constant-condition": "warn",
     "no-eval": "error",
-    "no-extend-native": "error",
     "no-fallthrough": "off",
     "no-global-assign": "error",
     "no-implied-eval": "error",
     "no-global-return": "off",
     "hackmud2/validate-subscript-syntax": "error",
-    "hackmud2/no-closure-identifier": "error",
-    "hackmud2/no-closure-siblings": "error"
+    "hackmud2/no-closure-identifier": "error"
   }
 }
