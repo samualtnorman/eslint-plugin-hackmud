@@ -11,9 +11,9 @@
   "author": "Adam Bosco",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KuroTsuto/eslint-plugin-hackmud"
+    "url": "https://github.com/samualtnorman/eslint-plugin-hackmud2"
   },
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel ./src --out-dir ./lib --copy-files"
   },
