@@ -1,6 +1,13 @@
+# @samual/eslint-plugin-hackmud2
+
+This is a fork of [vacoon/bosconian-dynamics/Aniketos](https://github.com/bosconian-dynamics)'s package [of the same name](https://github.com/bosconian-dynamics/eslint-plugin-hackmud).
+This fork enables checking of typescript files, but to do this the `no-closure-siblings` rule had to be disabled due to [this](https://github.com/eslint/eslint/issues/13639) bug caused by [this](https://github.com/estools/esquery/pull/112) other bug.
+
+Once these are resolved, I will probably just pull request typscript checking into the main repo and be done with this one.
+
 # eslint-plugin-hackmud2
 
-[![npm](https://img.shields.io/npm/v/eslint-plugin-hackmud2.svg?style=plastic)](https://www.npmjs.com/package/eslint-plugin-hackmud2) [![license](https://img.shields.io/github/license/KuroTsuto/eslint-plugin-hackmud.svg?style=plastic)](https://github.com/KuroTsuto/eslint-plugin-hackmud/blob/master/LICENSE.md) [![npm](https://img.shields.io/npm/dt/eslint-plugin-hackmud2.svg?style=plastic)](https://www.npmjs.com/package/eslint-plugin-hackmud2) 
+[![npm](https://img.shields.io/npm/v/eslint-plugin-hackmud2.svg?style=plastic)](https://www.npmjs.com/package/eslint-plugin-hackmud2) [![license](https://img.shields.io/github/license/KuroTsuto/eslint-plugin-hackmud.svg?style=plastic)](https://github.com/KuroTsuto/eslint-plugin-hackmud/blob/master/LICENSE.md) [![npm](https://img.shields.io/npm/dt/eslint-plugin-hackmud2.svg?style=plastic)](https://www.npmjs.com/package/eslint-plugin-hackmud2)
 
 Linting rules for hackmud scripts.
 

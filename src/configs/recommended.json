@@ -1,7 +1,7 @@
 {
   "env": {
     "es6": true,
-    "hackmud2/hackmud": true
+    "@samual/hackmud2/hackmud": true
   },
   "extends": "eslint:recommended",
   "rules": {
@@ -14,7 +14,7 @@
     "no-global-assign": "error",
     "no-implied-eval": "error",
     "no-global-return": "off",
-    "hackmud2/validate-subscript-syntax": "error",
-    "hackmud2/no-closure-identifier": "error"
+    "@samual/hackmud2/validate-subscript-syntax": "error",
+    "@samual/hackmud2/no-closure-identifier": "error"
   }
 }

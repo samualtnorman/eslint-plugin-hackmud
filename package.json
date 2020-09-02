@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-hackmud2",
-  "version": "0.3.1",
+  "name": "@samual/eslint-plugin-hackmud2",
+  "version": "0.3.2",
   "description": "Linting rules for hackmud player-scripts",
   "keywords": [
     "eslint",
@@ -23,5 +23,8 @@
     "babel-preset-env": "^1.7.0",
     "eslint": "^3.9.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ]
 }
